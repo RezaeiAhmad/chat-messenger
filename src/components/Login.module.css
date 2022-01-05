@@ -1,0 +1,178 @@
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.loginCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 20vh;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px 0px 20px 0px;
+  overflow: hidden;
+}
+.loginButton {
+  width: 16vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 22px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.loginButton:hover {
+  background-color: #173e67;
+  transition: background-color 1.2s;
+}
+
+@media only screen and (max-width: 280px) {
+  .loginCard {
+    width: 90vw;
+    text-align: center;
+  }
+
+  .loginCard h1 {
+    font-size: 19px;
+  }
+  .loginButton {
+    width: 65vw;
+    text-align: center;
+    font-size: 19px;
+  }
+  .loginButton img {
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 490px) {
+  .loginCard {
+    width: 80vw;
+    height: 30vh;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .loginCard h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .loginButton {
+    width: 50vw;
+    text-align: center;
+    font-size: 23px;
+  }
+  .loginButton img {
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 490px) and (max-width: 900px) {
+  .loginCard {
+    width: 80vw;
+    height: 30vh;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .loginCard h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .loginButton {
+    width: 30vw;
+    text-align: center;
+    font-size: 23px;
+  }
+  .loginButton img {
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1300px) {
+  .loginCard {
+    width: 80vw;
+    height: 30vh;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .loginCard h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .loginButton {
+    width: 30vw;
+    text-align: center;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 490px) and (max-width: 900px) {
+  .loginCard {
+    width: 80vw;
+    height: 30vh;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .loginCard h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .loginButton {
+    width: 30vw;
+    text-align: center;
+    font-size: 23px;
+  }
+  .loginButton img {
+    padding-right: 10px;
+  }
+}
+@media (min-width: 490px) and (max-width: 900px) {
+  .loginCard {
+    width: 80vw;
+    height: 30vh;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .loginCard h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .loginButton {
+    width: 30vw;
+    text-align: center;
+    font-size: 23px;
+  }
+  .loginButton img {
+    padding-right: 10px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  body {
+    background-image: url("../Svg/Contour\ Line\ \(2\).svg");
+    background-size: cover;
+  }
+}

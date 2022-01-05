@@ -1,0 +1,39 @@
+.navBar {
+  max-width: 100vw;
+  height: 50px;
+  background-color: #173e67;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+}
+.logout {
+  cursor: pointer;
+  padding: 8px 15px 8px 15px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.logout:hover {
+  background-color: rgb(190, 191, 201);
+  color: #173e67;
+  transition: background-color 1.2s;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.loading img {
+  width: 30vw;
+}
+.loading h1 {
+  color: #fff;
+}
